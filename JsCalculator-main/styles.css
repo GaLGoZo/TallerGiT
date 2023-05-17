@@ -1,0 +1,67 @@
+.marco {
+  height: 600px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  background-image: url(https://cdn.wallpapersafari.com/82/92/RpuazV.jpg);
+}
+
+.row {
+  height: 105px;
+  width: 400px;
+  display: flex;
+  flex-direction: row;
+}
+
+.row-top {
+  height: 75px;
+  width: 400px;
+  display: flex;
+  flex-direction: column-reverse;
+  text-align: right;
+  font-size: 4.5rem;
+  font-family: "Arial";
+  color: white;
+}
+
+.inputte {
+  align-items: center;
+  color: white;
+  background-color: black;
+}
+
+.button {
+  color: white;
+  margin: 0.3px;
+  text-align: center;
+  font-size: xx-large;
+  
+}
+
+.button:hover {
+  background-color: darkgray;
+}
+
+
+
+.button-small-gray {
+  background-color: gray;
+  width: 100px;
+}
+
+.button-small-gray-orange {
+  background-color: orange;
+}
+
+.button-small-gray-orange:hover {
+    background-color:  rgb(243, 199, 118);
+  }
+.button-medium-gray {
+  background-color: gray;
+  width: 200px;
+}
+
+.button-Large-gray {
+  background-color: gray;
+  width: 300px;
+}
